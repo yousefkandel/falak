@@ -499,6 +499,52 @@ nav.links a:hover, nav.links a.active{opacity:1; color:var(--gold-light);}
   justify-content: center;
 }
 .fk-modal-close:hover{ background: rgba(201,160,99,.2); border-color: var(--gold); }
+@media (max-width: 860px){
+
+  .fk-card-row{
+    flex-direction: column;
+  }
+
+  .fk-half{
+    flex-direction: column !important;
+    align-items: center;
+    text-align: center;
+  }
+
+  .fk-cover{
+    width: 220px;
+    height: 320px;
+    margin-bottom: 20px;
+  }
+
+  .fk-details{
+    width: 100%;
+    text-align: center !important;
+  }
+
+  .fk-title{
+    text-align: center;
+  }
+
+  .fk-desc{
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto 20px;
+  }
+
+  .fk-meta{
+    align-items: center;
+  }
+
+  .fk-meta-row{
+    justify-content: center;
+    flex-direction: row !important;
+  }
+
+  .fk-divider{
+    display: none;
+  }
+}
 
 /* ============================================================
    الفوتر
