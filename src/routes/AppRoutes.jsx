@@ -6,7 +6,7 @@ function AppRoutes() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/falak" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
