@@ -20,7 +20,7 @@ function LogoMark() {
   );
 }
 
-export default function Navbar({ activePath = "/" }) {
+export default function NavbBar({ activePath = "/" }) {
   const [lang, setLang] = useState("ar");
   const [mobileOpen, setMobileOpen] = useState(false);
 
