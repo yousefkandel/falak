@@ -83,7 +83,8 @@ export default function Hero() {
           <a href="/about" className="btn-outline-dark">قصة فلك</a>
         </div>
       </div>
-      {/* <img src={heroImage} alt="Hero" /> */}
+      <img className="imgHero" src={heroImage} alt="Hero" />
+      {/* <img className="imgRight" src={heroImage} alt="Hero" /> */}
     </section>
   );
 }
